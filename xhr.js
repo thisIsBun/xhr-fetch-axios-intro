@@ -37,7 +37,7 @@ const getData = () => {
 
 const sendData = () => {
   const params = {
-    email: '123eve.holt@reqres.in',
+    email: 'eve.holt@reqres.in',
     password: 'pistol',
   };
   sendXMLHttpRequest('POST', 'https://reqres.in/api/register', params)
